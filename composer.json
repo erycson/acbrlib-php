@@ -1,0 +1,25 @@
+{
+    "name": "erycson/acbrlib-php",
+    "type": "library",
+    "description": "Biblioteca PHP + FFI não oficial para chamada das funções do ACBrLib",
+    "keywords": ["php", "acbr", "acbrlib", "ffi"],
+    "homepage": "https://github.com/erycson/acbrlib-php",
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Érycson Nóbrega",
+            "email": "egdn2004@gmail.com",
+            "homepage": "https://github.com/erycson",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-ffi": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "ACBrLib": "src"
+        }
+    }
+}
